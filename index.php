@@ -137,9 +137,9 @@
 						<div class="tips icon-btn" title="GitHub" data-placement="bottom">
                             <a href="https://github.com/sumitk1" target="_blank" class="glyphicons white github"><i></i></a>
                         </div>
-						<div class="tips icon-btn" title="StackOverFlow" data-placement="bottom">
-						<img src="images/stackoverflow.png" alt="Stackoverflow" height="42" width="42">
-                            <a href="https://github.com/sumitk1" target="_blank" class="glyphicons white chevron-right"><i></i></a>
+						<div class="tips " title="StackOverFlow" data-placement="bottom">
+						<br/><img src="images/stackoverflow.png" href="http://stackoverflow.com/users/596990/sumitk" alt="Stackoverflow" height="42" width="42">
+                            
                         </div>
 					</div>
 				</div>		
@@ -197,7 +197,7 @@
 			  	<div class="timeline">
 			  		
 		  			 <div class="timeline-item">
-		  			 	<div class="timeline-item-date">06/2012 - now</div>
+		  			 	<div class="timeline-item-date">2012 - now</div>
 		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_minus" data-toggle="collapse" data-target="#position1"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
@@ -215,7 +215,7 @@
 					 <span class="clear"></span>
 					 
 					 <div class="timeline-item">
-		  			 	<div class="timeline-item-date">06/2011 - 06/2012</div>
+		  			 	<div class="timeline-item-date">2011 - 2012</div>
 		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position2"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
@@ -233,7 +233,7 @@
 					 <span class="clear"></span>
 
 					 <div class="timeline-item">
-		  			 	<div class="timeline-item-date">12/2009 - 07/2010</div>
+		  			 	<div class="timeline-item-date">2009 - 2010</div>
 		  			 	<div class="timeline-item-trigger">
                             <span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position3"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
@@ -253,7 +253,7 @@
 					 <span class="clear"></span>
 					 
 					 <div class="timeline-item">
-		  			 	<div class="timeline-item-date">12/2007 - 12/2009</div>
+		  			 	<div class="timeline-item-date">2007 - 2009</div>
 		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position4"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
@@ -282,13 +282,13 @@
 			  	<div class="timeline">
 			  		
 		  			 <div class="timeline-item">
-		  			 	<div class="timeline-item-date">06/2012 - now</div>
-		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_minus" data-toggle="collapse" data-target="#position1"><i></i></span></div>
+		  			 	<div class="timeline-item-date">2010 - 2012</div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_minus" data-toggle="collapse" data-target="#position5"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
-							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position1">Member of Technical Staff @ Pinger (CA, USA)</h3>
-							<div class="collapse in" id="position1">
-								<p><small class="muted">from June 2012 to present day</small></p>
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position5">Member of Technical Staff @ Pinger (CA, USA)</h3>
+							<div class="collapse in" id="position5">
+								<p><small class="muted">from Aug 2010 to Jun 2012</small></p>
 								<h4 class="media-heading primary-color">PHP, MySql, Jenkins, Ant, Apache, WebInject, Python, PHPUnit</h4>
 								<p>As a member of the back-end team, I collaborate with team members to design develop and enhance product functionality by coding in PHP using best practices. 
 								This includes maintaining & enhancing our REST web services, design & develop scale-able MySql database schemas and high throughput memcache strategy. 
@@ -302,35 +302,54 @@
 			</div><!--/section-->
 		  	
 		  	<div class="section" id="education">
-			  	<h2 class="section-title"><span class="glyphicons certificate"><i></i></span>Education<a href="#phone-navbar" class="top visible-phone"><span class="glyphicons white up_arrow"><i></i></span></a></h2>
+			  	<h2 class="section-title"><span class="glyphicons certificate"><i></i></span>Education<a href="#phone-navbar" class="top visible-phone">
+				<span class="glyphicons white up_arrow"><i></i></span></a></h2>
 			  	
 			  	<div class="timeline">
 			  		
 		  			 <div class="timeline-item">
-		  			 	<div class="timeline-item-date">2007 - 2009</div>
+		  			 	<div class="timeline-item-date">2010 - 2012</div>
 		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_minus" data-toggle="collapse" data-target="#education1"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
-							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#education1">University of Design</h3>
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#education1">San José State University (San Jose , CA)</h3>
 							<div class="collapse in" id="education1">
-								<p><small class="muted">from 2007 to 2009</small></p>
-								<h4 class="media-heading primary-color">Lorem ipsum dolor sit amet</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt diam ac lectus tristique scelerisque. Quisque vitae libero sit amet turpis faucibus auctor eget vitae tortor. Aenean metus erat, ultricies non mattis quis, molestie ac massa. Sed sollicitudin erat ac dui viverra a posuere eros adipiscing. Phasellus nisi lectus, imperdiet sed hendrerit ac, dictum quis sem. Phasellus vel nisi non massa elementum porta. Aliquam erat volutpat.</p>	
+								<p><small class="muted">from Aug 2010 to Jun 2012</small></p>
+								<h4 class="media-heading primary-color">Master of Science, Major: Computer Science</h4>
+								<h4 class="media-heading primary-color">MS Computer Science</h4>
+								<p>Courses taken:<br/>
+								Object Oriented Analysis, &nbsp;
+								Information Security,&nbsp; 
+								Algorithms, &nbsp;
+								Topics in Databse, &nbsp;
+								Topics in XML & Web,&nbsp;
+								Topics in Information Security&nbsp;
+								</p>	
 							</div>
 						</div>
 					 </div><!--/timeline-item--> 
 					 <span class="clear"></span>
 					 
 					  <div class="timeline-item">
-		  			 	<div class="timeline-item-date">2004 - 2007</div>
+		  			 	<div class="timeline-item-date">2003 - 2007</div>
 		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#education2"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
-							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#education2">School of Design</h3>
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#education2">College of Engineering Roorkee (Roorkee, India)</h3>
 							<div class="collapse" id="education2">
-								<p><small class="muted">from 2004 to 2007</small></p>
-								<h4 class="media-heading primary-color">Lorem ipsum dolor sit amet</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt diam ac lectus tristique scelerisque. Quisque vitae libero sit amet turpis faucibus auctor eget vitae tortor. Aenean metus erat, ultricies non mattis quis, molestie ac massa. Sed sollicitudin erat ac dui viverra a posuere eros adipiscing. Phasellus nisi lectus, imperdiet sed hendrerit ac, dictum quis sem. Phasellus vel nisi non massa elementum porta. Aliquam erat volutpat.</p>	
+								<p><small class="muted">from Aug 2003 to Jun 2007</small></p>
+								<h4 class="media-heading primary-color">Bachelor of Technology, Major: Computer Science</h4>
+								<h4 class="media-heading primary-color">B. Tech Computer Science</h4>
+								<p>Courses taken:<br/>
+								<span class="label">Object Oriented Analysis</span>
+								<span class="label">Information Security </span>
+								<span class="label">Analysis of Algorithms </span>
+								<span class="label">Data Structures </span>
+								<span class="label">Operating Systems </span>
+								<span class="label">Databse Management System </span>
+								<span class="label">Computer Networks </span>
+								<span class="label">TCP-IP </span>
+								</p>	
 							</div>
 						</div>
 					 </div><!--/timeline-item--> 
@@ -387,17 +406,46 @@
 			  	
 			  	<hr/>
 			  				  	
-			  	<h3>Development</h3>
+			  	<h3>Technical Skills</h3>
 			  	
 			  	<div class="row">
-			  		<div class="span2">Programming Languages</div>
+			  		<div class="span2">Programming</div>
 			  		<div class="span7">
-			  			<span class="label">HTML5</span>
-			  			<span class="label">CSS3</span>
+			  			<span class="label">PHP</span>
+			  			<span class="label">PHPUnit</span>
+			  			<span class="label">Java</span>
+			  			<span class="label">Python</span>
+			  			<span class="label">JavaEE</span>
+			  			<span class="label">Spring</span>
+			  			<span class="label">Hibernate</span>
+			  			<span class="label">HTML</span>
+			  			<span class="label">CSS</span>
 			  			<span class="label">javaScript</span>
 			  			<span class="label">jQuery</span>
 			  			<span class="label">XML</span>
-			  			<span class="label">php</span>
+			  		</div>
+			  	</div>
+			  	<span class="spacer"></span>
+				<div class="row">
+			  		<div class="span2">Tools & Frameworks</div>
+			  		<div class="span7">
+			  			<span class="label">Jenkins</span>
+			  			<span class="label">WebInject</span>
+			  			<span class="label">Ant</span>
+			  			<span class="label">VoltDB</span>
+			  			<span class="label">Android</span>
+			  			<span class="label">Google App Engine</span>
+			  			<span class="label">Eclipse</span>
+			  			<span class="label">PHP Storm</span>
+			  			<span class="label">Adobe Photoshop & Dreamweaver</span>
+			  			<span class="label">Install Shield</span>
+			  			<span class="label">IBM Rational ClearCase & ClearQuest</span>
+			  			<span class="label">HP Quality Center</span>
+			  			<span class="label">Xampp</span>
+			  			<span class="label">WebLogic</span>
+			  			<span class="label">JBoss</span>
+			  			<span class="label">Git</span>
+			  			<span class="label">SVN</span>
 			  		</div>
 			  	</div>
 			  	<span class="spacer"></span>
@@ -413,7 +461,8 @@
 		  	</div><!--/section-->
 					
 			<div class="section hobbies" id="hobbies">
-		  		<h2 class="section-title"><span class="glyphicons heart_empty"><i></i></span>Hobbies<a href="#phone-navbar" class="top visible-phone"><span class="glyphicons white up_arrow"><i></i></span></a></h2>
+		  		<h2 class="section-title"><span class="glyphicons heart_empty"><i></i></span>Hobbies<a href="#phone-navbar" class="top visible-phone">
+				<span class="glyphicons white up_arrow"><i></i></span></a></h2>
 			  	
 			  	<div class="row">
 			  		<div class="span9">
@@ -446,7 +495,8 @@
 			  
 		
 		<div class="section noprint" id="contact">
-				<h2 class="section-title"><span class="glyphicons message_flag"><i></i></span>Contact<a href="#phone-navbar" class="top visible-phone"><span class="glyphicons white up_arrow"><i></i></span></a></h2>
+				<h2 class="section-title"><span class="glyphicons message_flag"><i></i></span>Contact<a href="#phone-navbar" class="top visible-phone">
+				<span class="glyphicons white up_arrow"><i></i></span></a></h2>
 				
 				<?php
 				
@@ -489,8 +539,8 @@
 					} 
 			
 					// PHP email 
-					$emailTo = 'ravinet.quentin@gmail.com'; //Put your own email address here
-					$websitename = "oSTUDIO"; //Put your website name here
+					$emailTo = 'sumitk.85@gmail.com'; //Put your own email address here
+					$websitename = "www.sumitk.in"; //Put your website name here
 					
 					if(!isset($hasError)) {
 						
