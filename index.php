@@ -72,11 +72,9 @@
 					<li><a href="#employment" class="scroller">Employment</a></li>
 					<li><a href="#education" class="scroller">Education</a></li>
 					<li><a href="#skills" class="scroller">Skills</a></li>
-					<li><a href="#testimonials" class="scroller">Testimonials</a></li>
 					<li><a href="#hobbies" class="scroller">Hobbies</a></li>
-					<li><a href="#portfolio" class="scroller">Portfolio</a></li>
 					<li><a href="#blog" class="scroller">Blog</a></li>
-					<li><a href="#contact" class="scroller">Contact</a></li>
+					<li><a href="#contact" class="scroller">Contact Me</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
@@ -273,28 +271,35 @@
 						</div>
 					 </div><!--/timeline-item--> 
 					 <span class="clear"></span>
-					 
-					 <div class="timeline-item">
-		  			 	<div class="timeline-item-date">2008 - 2009</div>
-		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position5"><i></i></span></div>
+							  			 
+			  	</div><!--/timeline --> 
+			</div><!--/section-->
+		  	
+			<div class="section" id="consulting">
+			  	<h2 class="section-title"><span class="glyphicons share_alt"><i></i></span>Consulting Projects
+                    <a href="#phone-navbar" class="top visible-phone"><span class="glyphicons white up_arrow"><i></i></span></a></h2>
+			  	
+			  	<div class="timeline">
+			  		
+		  			 <div class="timeline-item">
+		  			 	<div class="timeline-item-date">06/2012 - now</div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_minus" data-toggle="collapse" data-target="#position1"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
-							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position5">Designer @ Creativecompany</h3>
-							<div class="collapse" id="position5">
-								<p><small class="muted">from 2008 to 2009</small></p>
-								<h4 class="media-heading primary-color">Lorem ipsum dolor sit amet</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt diam ac lectus tristique scelerisque. 
-								Quisque vitae libero sit amet turpis faucibus auctor eget vitae tortor. Aenean metus erat, ultricies non mattis quis, 
-								molestie ac massa. Sed sollicitudin erat ac dui viverra a posuere eros adipiscing. Phasellus nisi lectus, 
-								imperdiet sed hendrerit ac, dictum quis sem. Phasellus vel nisi non massa elementum porta. Aliquam erat volutpat.</p>	
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position1">Member of Technical Staff @ Pinger (CA, USA)</h3>
+							<div class="collapse in" id="position1">
+								<p><small class="muted">from June 2012 to present day</small></p>
+								<h4 class="media-heading primary-color">PHP, MySql, Jenkins, Ant, Apache, WebInject, Python, PHPUnit</h4>
+								<p>As a member of the back-end team, I collaborate with team members to design develop and enhance product functionality by coding in PHP using best practices. 
+								This includes maintaining & enhancing our REST web services, design & develop scale-able MySql database schemas and high throughput memcache strategy. 
+								Being the primary developer of the automated builds and test suite I also maintain and enhance Jenkins nightly builds & testing framework which helps QA save time.</p>
+								<p><a href="http://www.pinger.com" target="_blank" >&rarr; Pinger, INC</a></p>
 							</div>
 						</div>
 					 </div><!--/timeline-item--> 
 					 <span class="clear"></span>
-		  			 
-			  	</div><!--/timeline --> 
+				</div><!--/timeline --> 
 			</div><!--/section-->
-		  	
 		  	
 		  	<div class="section" id="education">
 			  	<h2 class="section-title"><span class="glyphicons certificate"><i></i></span>Education<a href="#phone-navbar" class="top visible-phone"><span class="glyphicons white up_arrow"><i></i></span></a></h2>
