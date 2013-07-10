@@ -420,16 +420,12 @@
 			  			<span class="label tips mobtoo" title="I love sci-fy & action movies">
 			  				<span class="glyphicons white film"><i></i>Movies</span>
 			  			</span>
-			  			<span class="label tips mobtoo" title="PADI Open Waters<br/>About 50 dives all around the world: Thailand, Indonesia, Malaysia, Mediterranean Sea…">
-			  				<span class="glyphicons white scuba_diving"><i></i>Scuba Diving</span>
-			  			</span>
 			  			<span class="label"><span class="glyphicons white pool"><i></i>Swimming</span></span>
 			  			<span class="label"><span class="glyphicons white bicycle"><i></i>Bicycling</span></span>
 			  			<span class="label"><span class="glyphicons white baseball"><i></i>Baseball</span></span>
 			  			<span class="label"><span class="glyphicons white gamepad"><i></i>Video games</span></span>
-			  			<span class="label"><span class="glyphicons white piano"><i></i>Piano</span></span>
+			  			<span class="label"><span class="glyphicons white guitar"><i></i>Guitar</span></span>
 			  			<span class="label"><span class="glyphicons white globe"><i></i>Traveling</span></span>
-			  			<span class="label"><span class="glyphicons white cake"><i></i>Cooking</span></span>
 			  		</div>
 			  	</div>
 			  	
