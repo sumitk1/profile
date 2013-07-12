@@ -259,7 +259,7 @@
 		  			 	<div class="timeline-item-content">
 							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position4">Project Engineer @ Wipro Technologies (Pune, India)</h3>
 							<div class="collapse" id="position4">
-								<p><small class="muted">from Dec 2007 to Dec2009</small></p>
+								<p><small class="muted">from Dec 2007 to Dec 2009</small></p>
 								<h4 class="media-heading primary-color">Java, C, C++, SIP, VC++, InstallShield, IBM Rational ClearCase & ClearQuest</h4>
 								<p>Impressed client by acquiring knowledge of unfamiliar product code base & effectively enhanced it.
 								Gained extensive knowledge of developing telephony applications for Android.
@@ -282,22 +282,40 @@
 			  	<div class="timeline">
 			  		
 		  			 <div class="timeline-item">
-		  			 	<div class="timeline-item-date">2010 - 2012</div>
+		  			 	<div class="timeline-item-date">2012</div>
 		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_minus" data-toggle="collapse" data-target="#position5"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
-							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position5">Member of Technical Staff @ Pinger (CA, USA)</h3>
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position5">Tropo Provisioning Python REST API</h3>
 							<div class="collapse in" id="position5">
-								<p><small class="muted">from Aug 2010 to Jun 2012</small></p>
-								<h4 class="media-heading primary-color">PHP, MySql, Jenkins, Ant, Apache, WebInject, Python, PHPUnit</h4>
-								<p>As a member of the back-end team, I collaborate with team members to design develop and enhance product functionality by coding in PHP using best practices. 
-								This includes maintaining & enhancing our REST web services, design & develop scale-able MySql database schemas and high throughput memcache strategy. 
-								Being the primary developer of the automated builds and test suite I also maintain and enhance Jenkins nightly builds & testing framework which helps QA save time.</p>
-								<p><a href="http://www.pinger.com" target="_blank" >&rarr; Pinger, INC</a></p>
+								<p><small class="muted">from Nov 2012 to Dec 2012</small></p>
+								<h4 class="media-heading primary-color">Python, REST API, Tropo API</h4>
+								<p>Tropo is a powerful yet simple API that adds Voice and SMS support to the existing programming languages like Python.
+								As a part of this project I created a Python wrapper for the Tropo rest API. 
+								This Python wrapper will be used in various internal/external Python projects at Tropo. 
+								</p>
+								<p><a href="https://www.tropo.com/" target="_blank" >&rarr; Tropo</a></p>
 							</div>
 						</div>
 					 </div><!--/timeline-item--> 
 					 <span class="clear"></span>
+					 
+					 <div class="timeline-item">
+		  			 	<div class="timeline-item-date">2012</div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_minus" data-toggle="collapse" data-target="#position6"><i></i></span></div>
+		  			 	<div class="timeline-arrow"><i></i></div>
+		  			 	<div class="timeline-item-content">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position6">Sacramento Heart website enhancements</h3>
+							<div class="collapse in" id="position6">
+								<p><small class="muted">from Aug 2012 to Oct 2012</small></p>
+								<h4 class="media-heading primary-color">PHP, HTML, CSS, Dreamweaver, Flash</h4>
+								<p>Enhanced aesthetics & usability of http://sacheart.net/ 
+								</p>
+								<p><a href="http://sacheart.net/" target="_blank" >&rarr; Sacramento Heart</a></p>
+							</div>
+						</div>
+					 </div><!--/timeline-item--> 
+					 
 				</div><!--/timeline --> 
 			</div><!--/section-->
 		  	
@@ -316,8 +334,8 @@
 							<div class="collapse in" id="education1">
 								<p><small class="muted">from Aug 2010 to Jun 2012</small></p>
 								<h4 class="media-heading primary-color">Master of Science, Major: Computer Science</h4>
-								<h4 class="media-heading primary-color">MS Computer Science</h4>
-								<p>Courses taken:<br/>
+								
+								<p><span class="label">Courses taken</span><br/>
 								Object Oriented Analysis, &nbsp;
 								Information Security,&nbsp; 
 								Algorithms, &nbsp;
@@ -339,7 +357,7 @@
 							<div class="collapse" id="education2">
 								<p><small class="muted">from Aug 2003 to Jun 2007</small></p>
 								<h4 class="media-heading primary-color">Bachelor of Technology, Major: Computer Science</h4>
-								<h4 class="media-heading primary-color">B. Tech Computer Science</h4>
+								
 								<p>Courses taken:<br/>
 								<span class="label">Object Oriented Analysis</span>
 								<span class="label">Information Security </span>
@@ -438,8 +456,8 @@
 			  			<span class="label">Eclipse</span>
 			  			<span class="label">PHP Storm</span>
 			  			<span class="label">Adobe Photoshop & Dreamweaver</span>
-			  			<span class="label">Install Shield</span>
 			  			<span class="label">IBM Rational ClearCase & ClearQuest</span>
+			  			<span class="label">Install Shield</span>
 			  			<span class="label">HP Quality Center</span>
 			  			<span class="label">Xampp</span>
 			  			<span class="label">WebLogic</span>
@@ -650,11 +668,9 @@
               <li><a href="#employment" class="scroller">Employment</a></li>
               <li><a href="#education" class="scroller">Education</a></li>
               <li><a href="#skills" class="scroller">Skills</a></li>
-              <li><a href="#testimonials" class="scroller">Testimonials</a></li>
               <li><a href="#hobbies" class="scroller">Hobbies</a></li>
-              <li><a href="#portfolio" class="scroller">Portfolio</a></li>
               <li><a href="#blog" class="scroller">Blog</a></li>
-              <li><a href="#contact" class="scroller">Contact</a></li>
+              <li><a href="#contact" class="scroller">Contact Me</a></li>
             </ul>
           </div><!--/sidebar-nav -->
           <span class="clear"></span>
