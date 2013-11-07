@@ -123,23 +123,24 @@
 					<h5>Follow me</h5>
 					<div>
 						<div class="tips icon-btn" title="Facebook" data-placement="bottom">
-                            <a href="www.facebook.com/sumitk.85" class="glyphicons white facebook"><i></i></a>
+                            <a href="http://www.facebook.com/sumitk.85" target="_blank" class="glyphicons white facebook"><i></i></a>
                         </div>
 						<div class="tips icon-btn" title="Twitter" data-placement="bottom">
                             <a href="https://twitter.com/sumitk_85" target="_blank" class="glyphicons white twitter"><i></i></a>
                         </div>
 						<div class="tips icon-btn" title="Linkedin" data-placement="bottom">
-                            <a href="http://www.linkedin.com/pub/sumit-kumar/11/b0a/917" target="_new" class="glyphicons white linked_in"><i></i></a>
+                            <a href="http://www.linkedin.com/pub/sumit-kumar/11/b0a/917" target="_blank" class="glyphicons white linked_in"><i></i></a>
                         </div>
 						<div class="tips icon-btn" title="GooglePlus" data-placement="bottom">
-							<a href="https://plus.google.com/101071178155863418430/posts" target="_new" class="glyphicons white google_plus"><i></i></a>
+							<a href="https://plus.google.com/101071178155863418430/posts" target="_blank" class="glyphicons white google_plus"><i></i></a>
 						</div>
 						<div class="tips icon-btn" title="GitHub" data-placement="bottom">
                             <a href="https://github.com/sumitk1" target="_blank" class="glyphicons white github"><i></i></a>
                         </div>
-						<div class="tips " title="StackOverFlow" data-placement="bottom">
-						<br/><img src="images/stackoverflow.png" href="http://stackoverflow.com/users/596990/sumitk" alt="Stackoverflow" height="42" width="42">
-                            
+						<div class="tips" data-placement="bottom">
+						<br/><a href="http://stackoverflow.com/users/596990/sumitk" alt="Stackoverflow" target="_blank">
+						<img src="images/stackoverflow.png" href="http://stackoverflow.com/users/596990/sumitk" alt="Stackoverflow" height="42" width="42">
+                        </a>    
                         </div>
 					</div>
 				</div>		
