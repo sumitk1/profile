@@ -111,6 +111,7 @@
 					<h4>Career summary:</h3>
 					<!--<p class="lead">-->
 					<p>
+					➔ 6+ yrs of total work experience <br/>
 					➔ 3 yrs of work exp. in field of Telecom Product Development & Verification <br/>
 					➔ Good exposure to develop and enhance enterprise applications using Java/J2EE<br/>
 					➔ Proficient in developing & enhancing system side applications using C/C++ on Unix<br/><br/>
@@ -295,7 +296,9 @@
 								As a part of this project I created a Python wrapper for the Tropo rest API. 
 								This Python wrapper will be used in various internal/external Python projects at Tropo. 
 								</p>
-								<p><a href="https://www.tropo.com/" target="_blank" >&rarr; Tropo</a></p>
+								<p> <a href="https://www.tropo.com/" target="_blank" >&rarr; Tropo</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="https://github.com/sumitk1/Tropo-Provisioning" target="_blank" >&rarr; Github Project</a>
+                                </p>
 							</div>
 						</div>
 					 </div><!--/timeline-item--> 
@@ -303,11 +306,11 @@
 					 
 					 <div class="timeline-item">
 		  			 	<div class="timeline-item-date">2012</div>
-		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_minus" data-toggle="collapse" data-target="#position6"><i></i></span></div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position6"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
 							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position6">Sacramento Heart website enhancements</h3>
-							<div class="collapse in" id="position6">
+							<div class="collapse" id="position6">
 								<p><small class="muted">from Aug 2012 to Oct 2012</small></p>
 								<h4 class="media-heading primary-color">PHP, HTML, CSS, Dreamweaver, Flash</h4>
 								<p>Enhanced aesthetics & usability of http://sacheart.net/ 
@@ -315,9 +318,46 @@
 								<p><a href="http://sacheart.net/" target="_blank" >&rarr; Sacramento Heart</a></p>
 							</div>
 						</div>
-					 </div><!--/timeline-item--> 
-					 
-				</div><!--/timeline --> 
+					 </div><!--/timeline-item-->
+                    <span class="clear"></span>
+
+					 <div class="timeline-item">
+		  			 	<div class="timeline-item-date">2010 - 2011</div>
+		  			 	<div class="timeline-item-trigger">
+                            <span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position7"><i></i></span></div>
+		  			 	<div class="timeline-arrow"><i></i></div>
+		  			 	<div class="timeline-item-content">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position7">Downtown Yoga Shala website enhancements</h3>
+							<div class="collapse" id="position7">
+								<p><small class="muted">from Aug 2010 to Jan 2011</small></p>
+								<h4 class="media-heading primary-color">Wordpress, PHP, HTML, CSS, Dreamweaver, Flash</h4>
+								<p>Enhanced aesthetics & usability of http://downtownyogashala.com/
+								</p>
+								<p><a href="http://downtownyogashala.com/" target="_blank" >&rarr; Downtown Yoga Shala</a></p>
+							</div>
+						</div>
+					 </div><!--/timeline-item-->
+                    <span class="clear"></span>
+
+                    <div class="timeline-item">
+                        <div class="timeline-item-date">2008 - 2009</div>
+                        <div class="timeline-item-trigger">
+                            <span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position8"><i></i></span></div>
+                        <div class="timeline-arrow"><i></i></div>
+                        <div class="timeline-item-content">
+                            <h3 class="timeline-item-title" data-toggle="collapse" data-target="#position8">Site for encouraging critical thinking for Persian students</h3>
+                            <div class="collapse" id="position8">
+                                <p><small class="muted">from Aug 2008 to Jul 2009</small></p>
+                                <h4 class="media-heading primary-color">PHP, Python, MySql, Flash, HTML/JS/CSS</h4>
+                                <p>This website was made to educate people/students in Iran and other parts of the world about the importance of critical thinking.
+                                    The main idea of the site came from a teacher from Iran who quickly learned the basics of web design and is currently maintainig this website.
+                                </p>
+                                <p><a href="http://www.prothinka-src.org" target="_blank" >&rarr; www.prothinka-src.org</a></p>
+                            </div>
+                        </div>
+                    </div><!--/timeline-item-->
+                    <span class="clear"></span>
+				</div><!--/timeline -->
 			</div><!--/section-->
 		  	
 		  	<div class="section" id="education">
@@ -381,20 +421,20 @@
 		  	<div class="section skills" id="skills">
 		  		<h2 class="section-title"><span class="glyphicons cogwheels"><i></i></span>Skills<a href="#phone-navbar" class="top visible-phone">
 				<span class="glyphicons white up_arrow"><i></i></span></a></h2>
-			  	<h3>Design</h3>
+			  	<h3>Proficiency</h3>
 			  	
-			  	<div class="row">
-			  		<div class="span2">Java</div>
+                <div class="row">
+			  		<div class="span2">PHP</div>
 			  		<div class="span3">
-			  			<span class="printonly">Good</span>
+			  			<span class="printonly">Very Good</span>
 			  			<div class="progress">
-	   						<div class="bar" style="width: 60%;"></div>
+	   						<div class="bar" style="width: 85%;"></div>
 	    				</div>
 			  		</div>
 			  	</div>
 
                 <div class="row">
-			  		<div class="span2">PHP</div>
+			  		<div class="span2">Python</div>
 			  		<div class="span3">
 			  			<span class="printonly">Very Good</span>
 			  			<div class="progress">
@@ -404,11 +444,21 @@
 			  	</div>
 
 			  	<div class="row">
+			  		<div class="span2">Java</div>
+			  		<div class="span3">
+			  			<span class="printonly">Good</span>
+			  			<div class="progress">
+	   						<div class="bar" style="width: 70%;"></div>
+	    				</div>
+			  		</div>
+			  	</div>
+
+			  	<div class="row">
 			  		<div class="span2">MySQL</div>
 			  		<div class="span3">
 			  			<span class="printonly">Very good</span>
 			  			<div class="progress">
-	   						<div class="bar" style="width: 80%;"></div>
+	   						<div class="bar" style="width: 85%;"></div>
 	    				</div>
 			  		</div>
 			  	</div>
@@ -418,7 +468,7 @@
 			  		<div class="span3">
 			  			<span class="printonly">Good</span>
 			  			<div class="progress">
-	   						<div class="bar" style="width: 50%;"></div>
+	   						<div class="bar" style="width: 55%;"></div>
 	    				</div>
 			  		</div>
 			  	</div>
@@ -438,9 +488,11 @@
 			  			<span class="label">Spring</span>
 			  			<span class="label">Hibernate</span>
 			  			<span class="label">HTML</span>
+			  			<span class="label">HTML5</span>
 			  			<span class="label">CSS</span>
 			  			<span class="label">javaScript</span>
 			  			<span class="label">jQuery</span>
+			  			<span class="label">jQueryUI</span>
 			  			<span class="label">XML</span>
 			  		</div>
 			  	</div>
