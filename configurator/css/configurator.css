@@ -1,0 +1,62 @@
+#configurator {
+z-index: 10;
+box-shadow: 0 0 12px rgba(0,0,0,.5);
+position: absolute; 
+top: 0; 
+left: -195px;
+background: #181818;
+color: #fff;
+padding: 20px;
+width: 150px; 
+border-bottom-right-radius: 20px;
+border-right: 2px solid #444;
+border-bottom: 2px solid #444;
+}
+#configurator .trigger {
+position: absolute; 
+background: #181818;
+width: 25px;
+height: 35px;
+right: -45px; 
+top: 24px;
+border-top-right-radius:10px;
+border-bottom-right-radius:10px;
+padding: 10px; 
+padding-left: 8px;
+border: 2px solid #444;
+border-left: none;
+}
+#configurator h3 {font-family: Arial, sans-serif !important;}
+
+#configurator select {width: 152px;}
+
+
+#configurator .trigger span {opacity: .8; filter: alpha(opacity=80);height: 35px; margin-top: 6px;}
+#configurator .trigger span:hover {opacity: 1; filter: alpha(opacity=100); cursor: pointer;}
+#configurator h3 {color: #fff; margin-top: 14px;}
+
+.colorpick {display: inline-block; margin-bottom: 7px; clear: both; zoom: 1; overflow: hidden;}
+.colorpick div {float: left; display: inline-block; height: 15px; width: 15px; margin-right: 10px; border: 1px solid #fff; }
+.colorpick a {color: #fff!important; font-size: 12px; line-height: 22px;}
+
+.colorpicker {z-index: 9999;}
+.colorpicker input{width: auto; font-size: 10px; line-height: 11px;}
+
+#enableadvancedcustom {display: inline-block;margin-top: -2px; margin-right: 5px;}
+#advancedcustom {margin-top: 10px; margin-bottom: 15px;}
+
+.reveal-modal {top: 100px!important;}
+#exportModal {
+width: 700px;
+background: #fff;
+border: 20px solid #333;
+padding: 20px; 
+height: auto;
+}
+#exportModal textarea {width: 100%; min-height: 180px;}
+
+
+
+@media (max-width: 767px) {
+#configurator {display: none;}
+}
