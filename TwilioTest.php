@@ -2,9 +2,10 @@
 
 require 'twilio-php-master/Services/Twilio.php';
 
-$account_sid = ''; 
+$account_sid = 'ACfb9c974b153c91308f8d43daa8fe85f2'; 
 //$auth_token = ''; 
 
+$account_sid = isset($_POST["account_sid"]) ? $_POST["account_sid"] : "";
 $auth_token = isset($_POST["auth_token"]) ? $_POST["auth_token"] : "";
 $to = isset($_POST["to"]) ? $_POST["to"]: "" ;
 $message = isset($_POST["message"]) ? $_POST["message"] : "Hello monkey!";
@@ -12,6 +13,7 @@ $message = isset($_POST["message"]) ? $_POST["message"] : "Hello monkey!";
 $client = new Services_Twilio($account_sid, $auth_token); 
 
 if (isset($_POST["submit"])) { 
+try{
 	$message = $client->account->messages->sendMessage(
 	  '4084449129', // From a valid Twilio number
 	  $to, // Text this number
@@ -19,6 +21,9 @@ if (isset($_POST["submit"])) {
 	);
 
 	print $message->sid;
+} catch (Exception $e) {
+	$error = "Sorry, the boogie monster ate your message! Can't send it right now. <br>" . $e->getMessage(); 
+}
 }
 ?>
 <!DOCTYPE html>
@@ -77,13 +82,33 @@ if (isset($_POST["submit"])) {
     include_once("analyticstracking.php");
 ?> 
 	
+<div class="navbar navbar-inverse navbar-fixed-top visible-phone noprint" id="phone-navbar"> </div>
 
-<form id = "submit" action ="TwilioTest.php" method = "POST"> 
+<div class="container">
+	<div class="row" id="content">
+		<div class="span9 equal" id="main-content">
+		<div class="section first-section" id="form">
+			<div class="well">
+				<form id = "submit" action ="TwilioTest.php" method = "POST"> 
 
-A-T = <input type = "text" id = "auth_token" name = "auth_token"><br>
-To = <input type = "text" id = "to" name = "to"><br>
-Msg = <input type = "text" id = "message" name = "message"><br>
-<input type = "submit" id = "submit" value = "submit" name = "submit">
-</form>
-
+				AccountSid   = <input type = "text" id = "account_sid" name = "account_sid"><br>
+				Auth Token   = <input type = "text" id = "auth_token" name = "auth_token"><br>
+				To Number    = <input type = "text" id = "to" name = "to"><br>
+				Message Text = <input type = "text" id = "message" name = "message"><br>
+				<input type = "submit" id = "submit" value = "submit" name = "submit">
+				</form>
+			</div>
+			
+			<?php 
+				// if errors
+				if(isset($error)) { ?>
+				    <div class="alert alert-error">
+					    <button type="button" class="close" data-dismiss="alert">&times;</button>
+					    <?php echo $error; ?>
+					</div>
+				<?php } ?>
+				
+		</div>
+	</div>
+</div>
 </body></html>
