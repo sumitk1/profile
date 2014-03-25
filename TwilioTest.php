@@ -89,6 +89,8 @@ try{
 		<div class="span9 equal" id="main-content">
 		<div class="section first-section" id="form">
 			<div class="well">
+			<fieldset>
+            <legend style="background-color: #ffffff">Send Message</legend>
 				<form id = "submit" action ="TwilioTest.php" method = "POST"> 
 
 				AccountSid   = <input type = "text" id = "account_sid" name = "account_sid"><br>
@@ -97,6 +99,22 @@ try{
 				Message Text = <input type = "text" id = "message" name = "message"><br>
 				<input type = "submit" id = "submit" value = "submit" name = "submit">
 				</form>
+			</fieldset>
+			</div>
+			
+			<div class="well">
+			<fieldset>
+            <legend style="background-color: #ffffff">Send MMS</legend>
+				<form id = "submit" action ="TwilioTest.php" method = "POST"> 
+
+				AccountSid   = <input type = "text" id = "account_sid" name = "account_sid"><br>
+				Auth Token   = <input type = "text" id = "auth_token" name = "auth_token"><br>
+				To Number    = <input type = "text" id = "to" name = "to"><br>
+				Message Text = <input type = "text" id = "message" name = "message"><br>
+				MMS Image = <input type = "file" id = "file" name = "file"><br>
+				<input type = "submit" id = "submit" value = "submit" name = "submit">
+				</form>
+			</fieldset>
 			</div>
 			
 			<?php 
