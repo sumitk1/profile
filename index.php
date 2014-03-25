@@ -119,11 +119,11 @@ require 'twilio-php-master/Services/Twilio.php';
 					<p>
 					➔ 6+ yrs of total work experience in the field of Computer Science <br/>
 					➔ Around 3 yrs of work exp. in developing RESTful web services on LAMP <br/>
-					   Obtained good exposure in developing web services using PHP-Memcached-MySql<br/>
-					   Obtained expertise in developing automated build scripts for Unit/System testing on Jenkins<br/>
+					   <ul style="margin-top: 0px"><li>Obtained good exposure in developing web services using PHP-Memcached-MySql</li>
+					   <li>Obtained expertise in developing automated build scripts for Unit/System testing on Jenkins</li></ul>
 					➔ 3 yrs of work exp. in field of Telecom Product Development & Verification <br/>
-					   Obtained good experience in developing and enhancing enterprise applications using Java, J2EE, Spring, Hibernate.<br/>
-					   Obtained proficiency in developing & enhancing system side applications using C/C++ on Unix.<br/><br/>
+					   <ul style="margin-top: 0px"><li>Obtained good experience in developing and enhancing enterprise applications using Java, J2EE, Spring, Hibernate.</li>
+					   <li>Obtained proficiency in developing & enhancing system side applications using C/C++ on Unix.</li></ul>
 					
 					[Good familiarity with]: PHP, Java/J2EE, EJB, Spring, Hibernate, XML-Web Services, HTML, CSS, Javascript, JQuery <br/>
 					[Currently working on]: PHP, PHPUnit, Python, Google App Engine, HTML5(websockets), Jenkins, Android</p>
