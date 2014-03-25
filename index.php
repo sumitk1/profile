@@ -1,3 +1,9 @@
+<?php
+
+require 'twilio-php-master/Services/Twilio.php';
+
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -103,7 +109,7 @@
 	            	</div>
 	            	<div class="span6">
 				    	<h1>Sumit Kumar</h1><br/>
-				   		<h3 class="primary-color">Computer Science grad, software engineer and a technology enthusiast</h3>
+				   		<h3 class="primary-color">Generalist software engineer, a technology enthusiast & Computer Science grad. </h3>
 				   	</div>
 				</div>
 
@@ -111,13 +117,16 @@
 					<h4>Career summary:</h3>
 					<!--<p class="lead">-->
 					<p>
-					➔ 6+ yrs of total work experience <br/>
+					➔ 6+ yrs of total work experience in the field of Computer Science <br/>
+					➔ Around 3 yrs of work exp. in developing RESTful web services on LAMP <br/>
+					   Obtained good exposure in developing web services using PHP-Memcached-MySql<br/>
+					   Obtained expertise in developing automated build scripts for Unit/System testing on Jenkins<br/>
 					➔ 3 yrs of work exp. in field of Telecom Product Development & Verification <br/>
-					➔ Good exposure to develop and enhance enterprise applications using Java/J2EE<br/>
-					➔ Proficient in developing & enhancing system side applications using C/C++ on Unix<br/><br/>
+					   Obtained good experience in developing and enhancing enterprise applications using Java, J2EE, Spring, Hibernate.<br/>
+					   Obtained proficiency in developing & enhancing system side applications using C/C++ on Unix.<br/><br/>
 					
-					Good familiarity with]: PHP, Java/J2EE, EJB, Spring, Hibernate, XML-Web Services, HTML, CSS, Javascript, JQuery <br/>
-					[Currently working on]: Android, PHPUnit, Python, Google App Engine, HTML5(websockets), Jenkins</p>
+					[Good familiarity with]: PHP, Java/J2EE, EJB, Spring, Hibernate, XML-Web Services, HTML, CSS, Javascript, JQuery <br/>
+					[Currently working on]: PHP, PHPUnit, Python, Google App Engine, HTML5(websockets), Jenkins, Android</p>
 				</div>
 				
 				<div class="social-media noprint">
@@ -740,3 +749,6 @@
 
 </body>
 </html>
+<?php
+
+?>
