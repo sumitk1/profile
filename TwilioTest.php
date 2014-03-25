@@ -13,17 +13,23 @@ $message = isset($_POST["message"]) ? $_POST["message"] : "Hello monkey!";
 $client = new Services_Twilio($account_sid, $auth_token); 
 
 if (isset($_POST["submit"])) { 
-try{
-	$message = $client->account->messages->sendMessage(
-	  '4084449129', // From a valid Twilio number
-	  $to, // Text this number
-	  $message
-	);
+	if (!empty($_POST["simpleMessage"])) {
+		try{
+			$message = $client->account->messages->sendMessage(
+			  '4084449129', // From a valid Twilio number
+			  $to, // Text this number
+			  $message
+			);
 
-	print $message->sid;
-} catch (Exception $e) {
-	$error = "Sorry, the boogie monster ate your message! Can't send it right now. <br>" . $e->getMessage(); 
-}
+			print $message->sid;
+		} catch (Exception $e) {
+			$error = "Sorry, the boogie monster ate your message! Can't send it right now. <br>" . $e->getMessage(); 
+		}
+	}
+	else if (!empty($_POST["simpleMessage"])) {
+		// TODO Send MMS
+	}
+
 }
 ?>
 <!DOCTYPE html>
@@ -91,8 +97,8 @@ try{
 			<div class="well">
 			<fieldset>
             <legend style="background-color: #ffffff">Send Message</legend>
-				<form id = "submit" action ="TwilioTest.php" method = "POST"> 
-
+				<form id = "sendMessage" action ="TwilioTest.php" method = "POST"> 
+				<input type = "hidden" id = "simpleMessage" name = "simpleMessage" value="simpleMessage">
 				AccountSid   = <input type = "text" id = "account_sid" name = "account_sid"><br>
 				Auth Token   = <input type = "text" id = "auth_token" name = "auth_token"><br>
 				To Number    = <input type = "text" id = "to" name = "to"><br>
@@ -105,8 +111,8 @@ try{
 			<div class="well">
 			<fieldset>
             <legend style="background-color: #ffffff">Send MMS</legend>
-				<form id = "submit" action ="TwilioTest.php" method = "POST"> 
-
+				<form id = "sendmms" action ="TwilioTest.php" method = "POST"> 
+				<input type = "hidden" id = "mms" name = "mms" value="mms">
 				AccountSid   = <input type = "text" id = "account_sid" name = "account_sid"><br>
 				Auth Token   = <input type = "text" id = "auth_token" name = "auth_token"><br>
 				To Number    = <input type = "text" id = "to" name = "to"><br>
