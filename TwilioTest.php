@@ -7,14 +7,15 @@ $account_sid = 'ACfb9c974b153c91308f8d43daa8fe85f2';
 
 $account_sid = isset($_POST["account_sid"]) ? $_POST["account_sid"] : "";
 $auth_token = isset($_POST["auth_token"]) ? $_POST["auth_token"] : "";
+$from = isset($_POST["from"]) ? $_POST["from"]: "" ;
 $to = isset($_POST["to"]) ? $_POST["to"]: "" ;
 $message = isset($_POST["message"]) ? $_POST["message"] : "Hello monkey!";
 
 $client = new Services_Twilio($account_sid, $auth_token); 
-
+try{
 if (isset($_POST["submit"])) { 
 	if (!empty($_POST["simpleMessage"])) {
-		try{
+		
 			$message = $client->account->messages->sendMessage(
 			  '4084449129', // From a valid Twilio number
 			  $to, // Text this number
@@ -22,15 +23,51 @@ if (isset($_POST["submit"])) {
 			);
 
 			print $message->sid;
-		} catch (Exception $e) {
-			$error = "Sorry, the boogie monster ate your message! Can't send it right now. <br>" . $e->getMessage(); 
-		}
+		
 	}
-	else if (!empty($_POST["simpleMessage"])) {
+	else if (!empty($_POST["mms"])) {
 		// TODO Send MMS
-	}
+		$url = "";
+		$msg = "";
+		$allowedExts = array("gif", "jpeg", "jpg", "png");
+		$temp = explode(".", $_FILES["file"]["name"]);
+		$extension = end($temp);
+		
+		if ((($_FILES["file"]["type"] == "image/gif") || ($_FILES["file"]["type"] == "image/jpeg")
+				|| ($_FILES["file"]["type"] == "image/jpg") || ($_FILES["file"]["type"] == "image/pjpeg")
+				|| ($_FILES["file"]["type"] == "image/x-png") || ($_FILES["file"]["type"] == "image/png")) 
+				&& ($_FILES["file"]["size"] < 9000000) && in_array($extension, $allowedExts)) {
+			if ($_FILES["file"]["error"] > 0) {
+				$error = "Return Code: " . $_FILES["file"]["error"] . "<br>";
+			} 
+			else {
+				$msg  .= "Upload: " . $_FILES["file"]["name"] . "<br>";
+				$msg  .= "Type: " . $_FILES["file"]["type"] . "<br>";
+				$msg  .= "Size: " . ($_FILES["file"]["size"] / 1024) . " kB<br>";
+				$msg  .= "Temp file: " . $_FILES["file"]["tmp_name"] . "<br>";
 
+				if (file_exists("upload/" . $_FILES["file"]["name"])) {
+					$msg .= " <strong> ";
+					$msg .= $_FILES["file"]["name"] . " already exists. ";
+					$msg .= " </strong> ";
+				}
+				else {
+					move_uploaded_file($_FILES["file"]["tmp_name"], "upload/" . $_FILES["file"]["name"]);
+					$msg  .= "Stored in: " . "upload/" . $_FILES["file"]["name"];
+				}
+			}
+		}
+		$client->account->messages->sendMessage(
+			$from, // From a valid MMS enabled Twilio number
+			$to, 
+			$message, 
+			!empty($url) ? $url : "http://hdwallpapermania.com/wp-content/uploads/2014/02/heart-roses-flowers-hd-wallpapers.jpg");
+	}
 }
+} catch (Exception $e) {
+			$error = "Sorry, the boogie monster ate your message! Can't send it right now. This is what the monster has to say :<br><strong>" . $e->getMessage() . "</strong>"; 
+		}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -96,14 +133,16 @@ if (isset($_POST["submit"])) {
 		<div class="section first-section" id="form">
 			<div class="well">
 			<fieldset>
-            <legend style="background-color: #ffffff">Send Message</legend>
+            <legend style="background-color: #ffffff">Send Message </legend>
 				<form id = "sendMessage" action ="TwilioTest.php" method = "POST"> 
 				<input type = "hidden" id = "simpleMessage" name = "simpleMessage" value="simpleMessage">
-				AccountSid   = <input type = "text" id = "account_sid" name = "account_sid"><br>
-				Auth Token   = <input type = "text" id = "auth_token" name = "auth_token"><br>
-				To Number    = <input type = "text" id = "to" name = "to"><br>
-				Message Text = <input type = "text" id = "message" name = "message"><br>
-				<input type = "submit" id = "submit" value = "submit" name = "submit">
+				<table border="0" cellpadding="5px">
+				<tr><td>AccountSid </td><td> <input type = "text" id = "account_sid" name = "account_sid"></td></tr>
+				<tr><td>Auth Token  </td><td>  <input type = "text" id = "auth_token" name = "auth_token"></td></tr>
+				<tr><td>To Number   </td><td> <input type = "text" id = "to" name = "to"></td></tr>
+				<tr><td>Message Text </td><td> <input type = "text" id = "message" name = "message"></td></tr>
+				<tr><td colspan=2 align="center"><input type = "submit" id = "submit" value = "submit" name = "submit"></td></tr>
+				</table>
 				</form>
 			</fieldset>
 			</div>
@@ -111,14 +150,16 @@ if (isset($_POST["submit"])) {
 			<div class="well">
 			<fieldset>
             <legend style="background-color: #ffffff">Send MMS</legend>
-				<form id = "sendmms" action ="TwilioTest.php" method = "POST"> 
+				<form id = "sendmms" action ="TwilioTest.php" method = "POST" enctype="multipart/form-data"> 
 				<input type = "hidden" id = "mms" name = "mms" value="mms">
-				AccountSid   = <input type = "text" id = "account_sid" name = "account_sid"><br>
-				Auth Token   = <input type = "text" id = "auth_token" name = "auth_token"><br>
-				To Number    = <input type = "text" id = "to" name = "to"><br>
-				Message Text = <input type = "text" id = "message" name = "message"><br>
-				MMS Image = <input type = "file" id = "file" name = "file"><br>
-				<input type = "submit" id = "submit" value = "submit" name = "submit">
+				<table border="0" cellpadding="5px">
+				<tr><td>AccountSid  </td><td>  <input type = "text" id = "account_sid" name = "account_sid"></td></tr>
+				<tr><td>Auth Token  </td><td> <input type = "text" id = "auth_token" name = "auth_token"></td></tr>
+				<tr><td>From Number/ShortCode  </td><td> <input type = "text" id = "from" name = "from"> - P.S. This number should be enabled for MMS</td></tr>
+				<tr><td>To Number  </td><td> <input type = "text" id = "to" name = "to"></td></tr>
+				<tr><td>Message Text </td><td> <input type = "text" id = "message" name = "message"></td></tr>
+				<tr><td>MMS Image </td><td> <input type = "file" id = "file" name = "file"></td></tr>
+				<tr><td colspan="2" align="center"><input type = "submit" id = "submit" value = "submit" name = "submit"></td></tr>
 				</form>
 			</fieldset>
 			</div>
@@ -131,6 +172,14 @@ if (isset($_POST["submit"])) {
 					    <?php echo $error; ?>
 					</div>
 				<?php } ?>
+			<?php 
+				// if errors
+				if(!empty($msg) ) { ?>
+				    <div class="alert alert-info">
+					    <button type="button" class="close" data-dismiss="alert">&times;</button>
+					    <?php echo $msg; ?>
+					</div>
+				<?php } ?>	
 				
 		</div>
 	</div>
