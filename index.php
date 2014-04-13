@@ -117,16 +117,14 @@ require 'twilio-php-master/Services/Twilio.php';
 					<h4>Career summary:</h3>
 					<!--<p class="lead">-->
 					<p>
-					➔ 6+ yrs of total work experience in the field of Computer Science <br/>
-					➔ Around 3 yrs of work exp. in developing RESTful web services on LAMP <br/>
-					   <ul style="margin-top: 0px"><li>Obtained good exposure in developing web services using PHP-Memcached-MySql</li>
-					   <li>Obtained expertise in developing automated build scripts for Unit/System testing on Jenkins</li></ul>
-					➔ 3 yrs of work exp. in field of Telecom Product Development & Verification <br/>
-					   <ul style="margin-top: 0px"><li>Obtained good experience in developing and enhancing enterprise applications using Java, J2EE, Spring, Hibernate.</li>
-					   <li>Obtained proficiency in developing & enhancing system side applications using C/C++ on Unix.</li></ul>
+					➔ 6+ yrs of total work experience designing & developing RESTful web services (PHP, MySql, Memcached, Python, Java) <br/>
+					➔ Proficient in developing build scripts using Python, Ant, Maven, Shell script on Jenkins <br/>
+					➔ Hands-on experience on Jenkins for automating unit tests (PHPUnit), integration test (WebInject) & load test (Jmeter) <br/>
+					➔ Obtained proficiency in Telecom product development (Java, Hibernate, Spring, J2EE, PL-SQL, C, C++) <br/>
+					➔ Good exposure to developing & enhancing system side applications using C/C++ on Unix.<br/><br/>
 					
-					[Good familiarity with]: PHP, Java/J2EE, EJB, Spring, Hibernate, XML-Web Services, HTML, CSS, Javascript, JQuery <br/>
-					[Currently working on]: PHP, PHPUnit, Python, Google App Engine, HTML5(websockets), Jenkins, Android</p>
+					<h5 class="media-heading primary-color">[Good familiarity with]:</h5> PHP, PHPUnit, Java, JUnit, Python, PyUnit, MySQL, VoltDB, MongoDB, J2EE, EJB, Spring, Hibernate, XML-Web Services, HTML, CSS, Javascript, JQuery <br/>
+					<h5 class="media-heading primary-color">[Currently working on]:</h5> PHP, PHPUnit, Python, <a href="http://hacklang.org/" style="text-decoration: none" target="_blank">Hack</a> - <a href="http://hhvm.com/" style="text-decoration: none" target="_blank">HHVM</a>, <a href="https://www.mongodb.org/" style="text-decoration: none" target="_blank">MongoDB</a>, <a href="https://developers.google.com/appengine/" style="text-decoration: none" target="_blank">Google App Engine</a>, <a href="http://html5boilerplate.com/" style="text-decoration: none" target="_blank">HTML5</a> (<a href="http://www.websocket.org/" style="text-decoration: none" target="_blank">websockets</a>), <a href="http://jenkins-ci.org/" style="text-decoration: none" target="_blank">Jenkins</a>, Android, <a href="http://foundation.zurb.com/" style="text-decoration: none" target="_blank">Foundation</a></p>
 				</div>
 				
 				<div class="social-media noprint">
@@ -437,7 +435,7 @@ require 'twilio-php-master/Services/Twilio.php';
 			  		<div class="span3">
 			  			<span class="printonly">Very Good</span>
 			  			<div class="progress">
-	   						<div class="bar" style="width: 85%;"></div>
+	   						<div class="bar" style="width: 90%;"></div>
 	    				</div>
 			  		</div>
 			  	</div>
@@ -457,7 +455,7 @@ require 'twilio-php-master/Services/Twilio.php';
 			  		<div class="span3">
 			  			<span class="printonly">Good</span>
 			  			<div class="progress">
-	   						<div class="bar" style="width: 70%;"></div>
+	   						<div class="bar" style="width: 85%;"></div>
 	    				</div>
 			  		</div>
 			  	</div>
