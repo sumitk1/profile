@@ -19,4 +19,5 @@ RUN chown -R apache:apache /srv/http
 EXPOSE 9000 80
 VOLUME /srv/http
 COPY ./start.sh /
+RUN chmod 755 /start.sh
 ENTRYPOINT["/start.sh"]
