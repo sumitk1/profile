@@ -18,5 +18,5 @@ ADD profile /srv/http/
 RUN chown -R apache:apache /srv/http
 EXPOSE 9000 80
 VOLUME /srv/http
-CMD ["/etc/init.d/nginx", "start"]
-
+COPY start.sh /
+ENTRYPOINT["/start.sh"]
