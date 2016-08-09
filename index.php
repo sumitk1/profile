@@ -1,9 +1,3 @@
-<?php
-
-require 'twilio-php-master/Services/Twilio.php';
-
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -117,14 +111,14 @@ require 'twilio-php-master/Services/Twilio.php';
 					<h4>Career summary:</h3>
 					<!--<p class="lead">-->
 					<p>
-					➔ 6+ yrs of total work experience designing & developing RESTful web services (PHP, MySql, Memcached, Python, Java) <br/>
+					➔ 7+ yrs of work experience designing & developing RESTful web services (PHP, MySql, Memcached, Python, Java, Spring) <br/>
 					➔ Proficient in developing build scripts using Python, Ant, Maven, Shell script on Jenkins <br/>
 					➔ Hands-on experience on Jenkins for automating unit tests (PHPUnit), integration test (WebInject) & load test (Jmeter) <br/>
 					➔ Obtained proficiency in Telecom product development (Java, Hibernate, Spring, J2EE, PL-SQL, C, C++) <br/>
 					➔ Good exposure to developing & enhancing system side applications using C/C++ on Unix.<br/><br/>
 					
 					<h5 class="media-heading primary-color">[Good familiarity with]:</h5> PHP, PHPUnit, Java, JUnit, Python, PyUnit, MySQL, VoltDB, MongoDB, J2EE, EJB, Spring, Hibernate, XML-Web Services, HTML, CSS, Javascript, JQuery <br/>
-					<h5 class="media-heading primary-color">[Currently working on]:</h5> PHP, PHPUnit, Python, <a href="http://hacklang.org/" style="text-decoration: none" target="_blank">Hack</a> - <a href="http://hhvm.com/" style="text-decoration: none" target="_blank">HHVM</a>, <a href="https://www.mongodb.org/" style="text-decoration: none" target="_blank">MongoDB</a>, <a href="https://developers.google.com/appengine/" style="text-decoration: none" target="_blank">Google App Engine</a>, <a href="http://html5boilerplate.com/" style="text-decoration: none" target="_blank">HTML5</a> (<a href="http://www.websocket.org/" style="text-decoration: none" target="_blank">websockets</a>), <a href="http://jenkins-ci.org/" style="text-decoration: none" target="_blank">Jenkins</a>, Android, <a href="http://foundation.zurb.com/" style="text-decoration: none" target="_blank">Foundation</a></p>
+					<h5 class="media-heading primary-color">[Currently working on]:</h5> Spring, Java, RabbitMQ PHP, PHPUnit, Python, AWS, Docker, Splunk <a href="http://hacklang.org/" style="text-decoration: none" target="_blank">Hack</a> - <a href="http://hhvm.com/" style="text-decoration: none" target="_blank">HHVM</a>, <a href="https://www.mongodb.org/" style="text-decoration: none" target="_blank">MongoDB</a>, <a href="https://developers.google.com/appengine/" style="text-decoration: none" target="_blank">Google App Engine</a>, <a href="http://html5boilerplate.com/" style="text-decoration: none" target="_blank">HTML5</a> (<a href="http://www.websocket.org/" style="text-decoration: none" target="_blank">websockets</a>), <a href="http://jenkins-ci.org/" style="text-decoration: none" target="_blank">Jenkins</a>, Android, <a href="http://foundation.zurb.com/" style="text-decoration: none" target="_blank">Foundation</a></p>
 				</div>
 				
 				<div class="social-media noprint">
@@ -169,8 +163,9 @@ require 'twilio-php-master/Services/Twilio.php';
 	        		<div class="infoline span9"><div class="row">
 					  	<div class="span2 muted">Address</div>
 					  	<div class="span7">
-					  		3261 Curling Ct<br/>
-					  		San Jose, Ca<br/>
+					  		2000 Canyon Woods Dr<br/>
+					  		Apt C<br/>
+					  		San Ramon, CA [94582]<br/>
 					  		USA
 					  	</div>
 					</div></div>
@@ -205,19 +200,47 @@ require 'twilio-php-master/Services/Twilio.php';
 			  	
 			  	<div class="timeline">
 			  		
-		  			 <div class="timeline-item">
-		  			 	<div class="timeline-item-date">2012 - now</div>
+			  		<div class="timeline-item">
+		  			 	<div class="timeline-item-date">2016 - Now</div>
 		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_minus" data-toggle="collapse" data-target="#position1"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
-							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position1">Member of Technical Staff @ Pinger (CA, USA)</h3>
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position1">Sr. Software Engineer @ Boku (CA, USA)</h3>
 							<div class="collapse in" id="position1">
-								<p><small class="muted">from June 2012 to present day</small></p>
+								<p><small class="muted">from Jan 2016 to present day</small></p>
+								<h4 class="media-heading primary-color">Spring, Java, MySql, Liquibase, Maven, Apache Tomcat, Jetty, SumoLogic</h4>
+								<p>As a Sr. Software Engineer, my main responsibility is to design and implement RESTful API to connect merchants and mobile carriers using Java, Spring & Jersey. </p>
+								<p><a href="http://www.boku.com" target="_blank" >&rarr; Boku, Inc</a></p>
+							</div>
+						</div>
+					 </div><!--/timeline-item--> 
+			  		<div class="timeline-item">
+		  			 	<div class="timeline-item-date">2014 - 2016</div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position2"><i></i></span></div>
+		  			 	<div class="timeline-arrow"><i></i></div>
+		  			 	<div class="timeline-item-content">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position2">Platform Engineer @ Zoosk (CA, USA)</h3>
+							<div class="collapse" id="position2">
+								<p><small class="muted">from June 2014 to Dec 2015</small></p>
+								<h4 class="media-heading primary-color">Spring, Java, RabbitMQ, PHP, MySql, Jenkins, Ant, Apache, Nginx, Python, AWS, Docker, Splunk</h4>
+								<p>As a Platform Engineer, the main responsibility is to monitor the performance of our servers and find/fix bugs that may degrade the performance. This also includes coming up with new ideas and giving POC with technologies that can help scale the servers and increase the throughtput. This includes maintaining & enhancing our REST web services, design & develop high through-put messaging system and automate many repetitive tasks through Jenkins.</p>
+								<p><a href="http://www.zoosk.com" target="_blank" >&rarr; Zoosk, Inc</a></p>
+							</div>
+						</div>
+					 </div><!--/timeline-item-->
+		  			 <div class="timeline-item">
+		  			 	<div class="timeline-item-date">2012 - 2014</div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position3"><i></i></span></div>
+		  			 	<div class="timeline-arrow"><i></i></div>
+		  			 	<div class="timeline-item-content">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position3">Member of Technical Staff @ Pinger (CA, USA)</h3>
+							<div class="collapse" id="position3">
+								<p><small class="muted">from June 2012 to June 2014</small></p>
 								<h4 class="media-heading primary-color">PHP, MySql, Jenkins, Ant, Apache, WebInject, Python, PHPUnit</h4>
 								<p>As a member of the back-end team, I collaborate with team members to design develop and enhance product functionality by coding in PHP using best practices. 
 								This includes maintaining & enhancing our REST web services, design & develop scale-able MySql database schemas and high throughput memcache strategy. 
 								Being the primary developer of the automated builds and test suite I also maintain and enhance Jenkins nightly builds & testing framework which helps QA save time.</p>
-								<p><a href="http://www.pinger.com" target="_blank" >&rarr; Pinger, INC</a></p>
+								<p><a href="http://www.pinger.com" target="_blank" >&rarr; Pinger, Inc</a></p>
 							</div>
 						</div>
 					 </div><!--/timeline-item--> 
@@ -225,11 +248,11 @@ require 'twilio-php-master/Services/Twilio.php';
 					 
 					 <div class="timeline-item">
 		  			 	<div class="timeline-item-date">2011 - 2012</div>
-		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position2"><i></i></span></div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position4"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
-							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position2">Software Engineering Intern @ Pinger (CA, USA)</h3>
-							<div class="collapse" id="position2">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position4">Software Engineering Intern @ Pinger (CA, USA)</h3>
+							<div class="collapse" id="position4">
 								<p><small class="muted">from June 2011 to June 2012</small></p>
 								<h4 class="media-heading primary-color">PHP, PHPUnit, Jenkins, Ant, Python, Java, VoltDB</h4>
 								<p>I worked as an Intern at Pinger to automate their testing & nightly builds. 
@@ -244,11 +267,11 @@ require 'twilio-php-master/Services/Twilio.php';
 					 <div class="timeline-item">
 		  			 	<div class="timeline-item-date">2009 - 2010</div>
 		  			 	<div class="timeline-item-trigger">
-                            <span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position3"><i></i></span></div>
+                            <span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position5"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
-							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position3">Subject Matter Expert @ Amdocs (Pune, India)</h3>
-							<div class="collapse" id="position3">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position5">Subject Matter Expert @ Amdocs (Pune, India)</h3>
+							<div class="collapse" id="position5">
 								<p><small class="muted">from Dec 2009 to Jul 2010</small></p>
 								<h4 class="media-heading primary-color">Java, EJB, Spring, Hibernate, PL-SQL, HP Quality Center</h4>
 								<p>Gained extensive knowledge of Operation Support System for the Telecommunication industry.
@@ -263,11 +286,11 @@ require 'twilio-php-master/Services/Twilio.php';
 					 
 					 <div class="timeline-item">
 		  			 	<div class="timeline-item-date">2007 - 2009</div>
-		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position4"><i></i></span></div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position6"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
-							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position4">Project Engineer @ Wipro Technologies (Pune, India)</h3>
-							<div class="collapse" id="position4">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position6">Project Engineer @ Wipro Technologies (Pune, India)</h3>
+							<div class="collapse" id="position6">
 								<p><small class="muted">from Dec 2007 to Dec 2009</small></p>
 								<h4 class="media-heading primary-color">Java, C, C++, SIP, VC++, InstallShield, IBM Rational ClearCase & ClearQuest</h4>
 								<p>Impressed client by acquiring knowledge of unfamiliar product code base & effectively enhanced it.
@@ -292,11 +315,11 @@ require 'twilio-php-master/Services/Twilio.php';
 			  		
 		  			 <div class="timeline-item">
 		  			 	<div class="timeline-item-date">2012</div>
-		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_minus" data-toggle="collapse" data-target="#position5"><i></i></span></div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_minus" data-toggle="collapse" data-target="#position6"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
-							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position5">Tropo Provisioning Python REST API</h3>
-							<div class="collapse in" id="position5">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position6">Tropo Provisioning Python REST API</h3>
+							<div class="collapse in" id="position6">
 								<p><small class="muted">from Nov 2012 to Dec 2012</small></p>
 								<h4 class="media-heading primary-color">Python, REST API, Tropo API</h4>
 								<p>Tropo is a powerful yet simple API that adds Voice and SMS support to the existing programming languages like Python.
@@ -313,11 +336,11 @@ require 'twilio-php-master/Services/Twilio.php';
 					 
 					 <div class="timeline-item">
 		  			 	<div class="timeline-item-date">2012</div>
-		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position6"><i></i></span></div>
+		  			 	<div class="timeline-item-trigger"><span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position7"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
-							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position6">Sacramento Heart website enhancements</h3>
-							<div class="collapse" id="position6">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position7">Sacramento Heart website enhancements</h3>
+							<div class="collapse" id="position7">
 								<p><small class="muted">from Aug 2012 to Oct 2012</small></p>
 								<h4 class="media-heading primary-color">PHP, HTML, CSS, Dreamweaver, Flash</h4>
 								<p>Enhanced aesthetics & usability of http://sacheart.net/ 
@@ -331,11 +354,11 @@ require 'twilio-php-master/Services/Twilio.php';
 					 <div class="timeline-item">
 		  			 	<div class="timeline-item-date">2010 - 2011</div>
 		  			 	<div class="timeline-item-trigger">
-                            <span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position7"><i></i></span></div>
+                            <span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position8"><i></i></span></div>
 		  			 	<div class="timeline-arrow"><i></i></div>
 		  			 	<div class="timeline-item-content">
-							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position7">Downtown Yoga Shala website enhancements</h3>
-							<div class="collapse" id="position7">
+							<h3 class="timeline-item-title" data-toggle="collapse" data-target="#position8">Downtown Yoga Shala website enhancements</h3>
+							<div class="collapse" id="position8">
 								<p><small class="muted">from Aug 2010 to Jan 2011</small></p>
 								<h4 class="media-heading primary-color">Wordpress, PHP, HTML, CSS, Dreamweaver, Flash</h4>
 								<p>Enhanced aesthetics & usability of http://downtownyogashala.com/
@@ -349,11 +372,11 @@ require 'twilio-php-master/Services/Twilio.php';
                     <div class="timeline-item">
                         <div class="timeline-item-date">2008 - 2009</div>
                         <div class="timeline-item-trigger">
-                            <span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position8"><i></i></span></div>
+                            <span class="glyphicons white circle_plus" data-toggle="collapse" data-target="#position9"><i></i></span></div>
                         <div class="timeline-arrow"><i></i></div>
                         <div class="timeline-item-content">
-                            <h3 class="timeline-item-title" data-toggle="collapse" data-target="#position8">Site for encouraging critical thinking for Persian students</h3>
-                            <div class="collapse" id="position8">
+                            <h3 class="timeline-item-title" data-toggle="collapse" data-target="#position9">Site for encouraging critical thinking for Persian students</h3>
+                            <div class="collapse" id="position9">
                                 <p><small class="muted">from Aug 2008 to Jul 2009</small></p>
                                 <h4 class="media-heading primary-color">PHP, Python, MySql, Flash, HTML/JS/CSS</h4>
                                 <p>This website was made to educate people/students in Iran and other parts of the world about the importance of critical thinking.
@@ -740,7 +763,7 @@ require 'twilio-php-master/Services/Twilio.php';
 		</div><!--/row-->
       
 		<div id="footer">
-		<p>&copy; Sumit Kumar - 2013</p>
+		<p>&copy; Sumit Kumar - 2015</p>
 		</div>
 
 </div><!--/.container-->
